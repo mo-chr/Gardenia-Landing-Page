@@ -105,6 +105,10 @@ a {
 .image-box:hover .location-name {
 	color: white;
 }
+.footer{
+    height: 100px;
+    width: 100%;
+}
 
 @media only screen and (max-width: 600px) {
 	.Hero {
@@ -116,6 +120,7 @@ a {
 	}
 	.image-box {
 		justify-content: center;
+        height: 160px;
 	}
 	.selector-title {
 		padding-top: 50px;
