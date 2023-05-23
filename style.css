@@ -55,6 +55,7 @@ a {
 	width: 100%;
 	flex-direction: column;
 	align-items: center;
+	overflow-x: hidden;
 }
 .location-image {
 	width: 70%;
@@ -65,13 +66,16 @@ a {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	width: 90%;
+	width: 100%;
 	margin: 0 5%;
 	padding: 2% 0;
-	height: 450px;
+	height: 360px;
 	border: 2px solid rgba(255, 255, 255, 0);
 	transition: all ease-in-out 300ms;
 	border-radius: 26px;
+}
+a{
+	width: 300px;
 }
 .image-box:hover {
 	border: 2px solid #94c37f;
@@ -89,13 +93,13 @@ a {
 }
 
 .selector-title {
-	padding-top: 5%;
+	padding-top: 10%;
 	width: 100%;
 	text-align: center;
 	padding: 0 5%;
 	font-size: 50px;
 	color: #94c37f;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 .location-name {
