@@ -31,8 +31,8 @@ a {
 	position: relative;
 	display: flex;
 	flex-direction: row;
-	background-image: url(./media/banner-04.png);
-	background-size: cover;
+	background-image: url(./media/banner.png);
+	background-size: contain;
 	background-repeat: no-repeat;
 	overflow-x: hidden;
 }
@@ -117,7 +117,9 @@ a{
 @media only screen and (max-width: 600px) {
 	.Hero {
 		flex-direction: column;
-		height: 50vh;
+		height: 34vh;
+		background-size:cover;
+		background-position: left left;
 	}
 	.Selector {
 		height: 50%;
