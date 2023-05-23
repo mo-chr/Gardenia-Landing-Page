@@ -123,6 +123,7 @@ a{
 		height: 50%;
 	}
 	.image-box {
+		padding-top: 2%;
 		justify-content: center;
         height: 160px;
 		margin: 0;
